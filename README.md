@@ -37,7 +37,7 @@ sudo sh install.sh
 ```
 Then, Replug the USB network adapter, and wifi will be ready in your system setting.
 # P.s. Based on this website [Fix for compilation error for linux kernel >=5.12 because of GRO_DROP deprecation](https://github.com/aircrack-ng/rtl8814au/pull/73/files)
-file `recv_linux.c` in RTL8812AU_Linux_v5.13.6-15-gc40b977e2.20210629/driver/rtl8812AU_linux_v5.13.6-15-gc40b977e2.20210629/os_dep/linux wad modified.
+File `recv_linux.c` under path RTL8812AU_Linux_v5.13.6-15-gc40b977e2.20210629/driver/rtl8812AU_linux_v5.13.6-15-gc40b977e2.20210629/os_dep/linux was modified.
 ```
 #ifdef CONFIG_RTW_GRO
 		if (pregistrypriv->en_gro) {
